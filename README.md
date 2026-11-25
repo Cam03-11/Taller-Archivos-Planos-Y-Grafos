@@ -17,7 +17,8 @@ dotnet run -- city.txt packages.txt D
 - Opcional: `dotnet run -- city.txt packages.txt D --comparar` imprime al final una tabla con el
   total y el tiempo de la heurística voraz y de la heurística mejorada (reto opcional 4).
 - El ejemplo pequeño: `dotnet run -- city_mini.txt packages_mini.txt A`.
-
+- Desde Visual Studio: abrir `DeliveryRoutes.csproj`, oprimir F5 y Enter en las tres preguntas.
+  El proyecto copia los `.txt` a `bin\Debug\net9.0` para que el programa los encuentre.
 ## Estructura
 
 ```

@@ -10,4 +10,9 @@
     <Optimize>true</Optimize>
   </PropertyGroup>
 
+  <!-- Copia los archivos de datos a bin\Debug\net9.0 para que funcione al ejecutar desde Visual Studio -->
+  <ItemGroup>
+    <None Include="city.txt;packages.txt;city_mini.txt;packages_mini.txt" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+
 </Project>
